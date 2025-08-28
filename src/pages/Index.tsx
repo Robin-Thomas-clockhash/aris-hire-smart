@@ -1,12 +1,39 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import ProblemSection from "@/components/ProblemSection";
+import CategoryDefinition from "@/components/CategoryDefinition";
+import ValuePropositions from "@/components/ValuePropositions";
+import HowItWorks from "@/components/HowItWorks";
+import ComparisonTable from "@/components/ComparisonTable";
+import ImpactMetrics from "@/components/ImpactMetrics";
+import Testimonial from "@/components/Testimonial";
+import UseCases from "@/components/UseCases";
+import SecurityCompliance from "@/components/SecurityCompliance";
+import PricingTeaser from "@/components/PricingTeaser";
+import FAQ from "@/components/FAQ";
+import FinalCTA from "@/components/FinalCTA";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background font-inter">
+      <Header />
+      <main>
+        <Hero />
+        <ProblemSection />
+        <CategoryDefinition />
+        <ValuePropositions />
+        <HowItWorks />
+        <ComparisonTable />
+        <ImpactMetrics />
+        <Testimonial />
+        <UseCases />
+        <SecurityCompliance />
+        <PricingTeaser />
+        <FAQ />
+        <FinalCTA />
+      </main>
+      <Footer />
     </div>
   );
 };

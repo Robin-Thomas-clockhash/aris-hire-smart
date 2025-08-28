@@ -147,7 +147,8 @@ All colors MUST be HSL.
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply text-heading font-semibold tracking-tight;
+    @apply font-semibold tracking-tight;
+    color: hsl(var(--text-heading));
   }
 
   .text-primary-custom {
